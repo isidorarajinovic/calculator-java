@@ -12,3 +12,12 @@ calculator.java - linija 64 - catch blok se moze pojednostaviti
 calculator.java - linija 184 - izbrisati nepotrebni return statement
 
 start.java - linija 8 - nedostaje zagrada u System.out.println.
+
+staticka analiza SonarLint u IntelliJ IDEA:
+calculator.java - linja 4(13) - Add a private constructor to hide implicit public one
+calculator.java - linija 18(29) - rename method "ToString" to prevent any misunderstanding
+calculator.java - linija 24(25) - rename this metod to match the regular expression
+calculator.java - linija 63(35) - replace "exc" with an unnamed pattern
+calculator.java - linija 70(28) - immediately return this expression instead of assigning to the temporary variable "text.Result"
+calculator.java - linija 74(24) - rename this methos name to match the regular expression
+calculator.java - linija 183(12) - remove this redundant jump
