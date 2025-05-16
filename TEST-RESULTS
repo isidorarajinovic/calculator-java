@@ -1,1 +1,12 @@
+import unittest
+from Calculator import Calculator
 
+class CalculatorTest(unittest.TestCase):
+    def test_addition(self):
+        expression = "2+3"
+        expected = "5.0"
+        actual = Calculator.Run(expression)
+        self.assertEqual(expected, actual)
+
+if __name__ == '__main__':
+    unittest.main()
